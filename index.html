@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<title>clicker heroes</title>
+	</head>
+	<body class="body">
+		<div class="hero-window">
+			<div class="hero-window__avatar">
+				<img src="images/hero-simulator.jpg" alt="hero">
+				<div class="hero-window__buy">
+					ATK +1
+					<span>
+						300 Gold
+					</span>
+				</div>
+			</div>
+			<div class="hero-window__stats">
+				<p class="stats__name">
+					
+				</p>
+				<div class="stat stats__level">
+					Level: 
+					<span class="level__value"></span>
+				</div>
+				<div class="stat stats__attack">
+					Atk:
+					<span class="attack__value"></span>
+				</div>
+				<div class="stat stats__experience">
+					Exp:
+					<span class="experience__value"></span>
+				</div>
+				<div class="stat stats__gold">
+					Gold:
+					<span class="gold__value"></span>
+				</div>
+			</div>
+		</div>
+		<div class="monster">
+			<div class="monster__stats">
+				<div class="stats__monster-name"></div>
+				<div class="stats__hp"></div>
+			</div>	
+			<img class="monster__img" src="images/monster.png" alt="monster">
+		</div>
+		<script src="scripts/game.js"></script>
+	</body>
+</html>

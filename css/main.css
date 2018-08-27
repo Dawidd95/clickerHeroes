@@ -1,0 +1,111 @@
+
+		body {
+			width: 99%;
+			height: 600px;
+			font-family: "Quicksand";
+			background-image: url("../images/cave.jpg");
+			background-size: cover;
+			background-position: center;
+
+			display: flex;
+		}
+
+		.hero-window {
+			width: 300px;
+			height: 200px;
+			border-radius: 10px;
+			background-color: #222;
+			color: white;
+
+			display: flex;
+		}
+
+		.hero-window__avatar img {
+			width: 100px;
+			height: 100px;
+			border-radius: 10px 0 0 0;
+		}
+		
+		.hero-window__stats {
+			width: 70%;
+			height: 100%;
+		}
+		
+		.hero-window__buy {
+			width: 100px;
+			height: 95px;
+			background-color: red;
+			border-radius: 0 0 0 10px;
+			text-align: center;
+			font-weight: bold;
+			font-size: 26px;
+			cursor: pointer;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.hero-window__buy span {
+			font-weight: normal;
+			font-size: 13px;
+		}
+
+		.stats__name {
+			text-align: center;
+			font-weight: bold;
+			font-size: 24px;
+		}
+
+		.stat {
+			padding-left: 20px;
+			font-size: 20px;
+		}
+
+		.stat span {
+			padding-left: 20px;
+		}
+
+		.monster {
+			width: 50%;
+			height: 100%;
+		}
+
+		.monster__stats {
+			height: 25%;
+			margin-bottom: 40px;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		.stats__monster-name {
+			font-weight: bold;
+			font-size: 40px;
+			color: white;
+		}
+
+		.stats__hp {
+			width: 80%;
+			height: 60px;
+			font-size: 25px;
+			color: white;
+			border: 3px solid #800000;
+			border-radius: 50px;
+			background: #f85032;  /* fallback for old browsers */
+		    background: -webkit-linear-gradient(left, #e73827, #f85032);
+		    background: -o-linear-gradient(left, #e73827, #f85032);
+		    background: linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.monster__img {
+			width: 400px;
+			height: 400px;
+			margin-left: 10%;
+		}
